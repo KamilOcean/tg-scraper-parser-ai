@@ -173,12 +173,12 @@ node src/index.js <phone>
 
 This demo shows basic message iteration. It works well if you're just testing it out or you're a solo trader. But for a production system you'll need:
 
-✅ **Database integration** for message storage
+✅ **Database integration** for message storage  
 ✅ **Advanced AI analysis** for intelligent filtering  
-✅ **Multi-account management** to avoid limits
-✅ **Real-time processing** for instant alerts
-✅ **Scalable architecture** for multiple channels
-✅ **Custom Development** - Tailored to your specific needs 
+✅ **Multi-account management** to avoid limits  
+✅ **Real-time processing** for instant alerts  
+✅ **Scalable architecture** for multiple channels  
+✅ **Custom Development** - Tailored to your specific needs  
 
 ## 🤝 Let's Build Together!
 
