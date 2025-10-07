@@ -1,0 +1,7 @@
+{
+  "model": "deepseek-chat",
+  "temperature": 1.0,
+  "prompt": "Analyze this message and answer with 'true' if it is about Bitcoin or Ethereum pumping or rising and 'false' if it is not.",
+  "max_tokens": 100,
+  "stream": false
+}

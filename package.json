@@ -1,0 +1,39 @@
+{
+  "name": "tg-scraper-parser-ai",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "tg",
+    "telegram",
+    "parser",
+    "tg-parser",
+    "telegram-parser",
+    "telegram-scraper",
+    "telegram-bot",
+    "telegram-bot-parser",
+    "telegram-bot-scraper",
+    "parser-ai",
+    "scraper-ai",
+    "telegram scraper",
+    "telegram parser",
+    "crypto signals",
+    "AI analysis",
+    "blockchain intelligence",
+    "trading bots",
+    "market sentiment",
+    "cryptocurrency monitoring"
+  ],
+  "author": "Kamil Ocean",
+  "license": "MIT",
+  "description": "Real-time Telegram scraping + AI analysis for crypto market insights; Scrape thousands of Telegram channels, filter signals from noise, and get AI-powered crypto intelligence delivered in real-time. Perfect for traders, analysts, and crypto enthusiasts drowning in information overload. Includes saved sessions — no need to log in each time.",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "input": "^1.0.1",
+    "node-cron": "^4.0.2",
+    "telegram": "^2.26.22"
+  }
+}
