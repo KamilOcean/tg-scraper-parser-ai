@@ -1,7 +1,7 @@
 # Telegram Scraper + Parser + AI Analyzer
 ## 🤖 Crypto Intelligence Engine
 
-**Languages:** [English](README.md) | [Russian](README_RU.md)
+**Languages:** [English](README.md) | [Русский](README_RU.md) | [العربية](README_AR.md)
 
 > **Real-time Telegram scraping + AI analysis for crypto market insights**
 
@@ -80,7 +80,7 @@ API_ID=12345678
 API_HASH=a1b2c3d4e5f6g7h8i9j0
 ```
 
-5. Edit `chats-to-scrape.json` with your target chats/channels.
+4. Edit `chats-to-scrape.json` with your target chats/channels.
 **IMPORTANT! You must manually join these chats first.**
 **IMPORTANT! You must manually join these chats first. (you can get it from the browser, go to the chat in browser and copy the id from the url, it starts with - sign, for example: -1001728635215, specify that - as well)**
 
@@ -91,7 +91,7 @@ API_HASH=a1b2c3d4e5f6g7h8i9j0
 ]
 ```
 
-6. Fill the 'ai-settings.json' file with your prompt and settings for your AI service.
+5. Fill the 'ai-settings.json' file with your prompt and settings for your AI service.
 
 > **IMPORTANT!**
 > For now only DeepSeek is available. You also need to have an API key for DeepSeek and fill it up in the .env file. like this: DEEP_SEEK_TOKEN=your_token
@@ -106,7 +106,7 @@ API_HASH=a1b2c3d4e5f6g7h8i9j0
 }
 ```
 
-7. Set up Telegram bot to receive your filtered (catched) messages to your private channel
+6. Set up Telegram bot to receive your filtered (catched) messages to your private channel
 
 Open Telegram and search for @BotFather
 
@@ -124,7 +124,7 @@ Add `TOKEN` to `.env` file in root folder like this:
 TOKEN=1234567890:ABCdefGHIjklMNOpqrsTUVwxyz
 ```
 
-8. You need to specify your private channel id in .env file to collect all messages (leads).
+7. You need to specify your private channel id in .env file to collect all messages (leads).
 
 The fastest way is to go to browser version of Telegram, login there and open your private channel.
 Copy the id from the url, it starts with - sign, for example: -1001728635215, specify that - as well
@@ -142,7 +142,7 @@ https://api.telegram.org/bot<TOKEN>/getUpdates
 
 In the response you will find your chat id
 
-9. Getting DeepSeek API Token
+8. Getting DeepSeek API Token
 
 Go to [platform.deepseek.com](platform.deepseek.com)
 Log in or create account
@@ -157,7 +157,7 @@ Add `DEEP_SEEK_TOKEN` to `.env` file in root folder like this:
 DEEP_SEEK_TOKEN=your_token
 ```
 
-10. Run tg-scraper-parser-ai
+9. Run tg-scraper-parser-ai
 ```bash
 npm run start <phone>
 ```
